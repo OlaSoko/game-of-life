@@ -19,7 +19,9 @@ class GameOfLife:
         pass
 
     def is_alive(self, cell):
-        pass
+        if cell in self._state:
+            return True
+        return False
 
     def get_neighbors_count(self, cell):
         pass
